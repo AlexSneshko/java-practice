@@ -8,9 +8,9 @@ import static com.sneshko.collectionsTask2.Actor.fire;
 public class HollywoodDemo {
     public static void main(String[] args) {
         List<Actor> actors = new ArrayList<Actor>();
-        Actor sasha = new Actor("Sasha", "Petrov", 150_000);
-        Actor alex = new Actor("Alex", "Polad", 100_000);
-        Actor bob = new Actor("Bob", "Tob", 10_000);
+        Actor sasha = new Actor("Sasha", "Petrov", 150_000, 29);
+        Actor alex = new Actor("Alex", "Polad", 100_000, 16);
+        Actor bob = new Actor("Bob", "Tob", 10_000, 35);
 
         actors.add(sasha);
         actors.add(alex);
